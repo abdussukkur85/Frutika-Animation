@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.animation-container {
+    width: 700px;
+    height: 400px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    z-index: -1;
+}
+
+img#leftImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+img#rightImage {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+}
+
+img#textImage {
+    position: absolute;
+    top: 15px;
+    left: 250px;
+    width: 250px;
+}
